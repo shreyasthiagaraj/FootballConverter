@@ -21,6 +21,8 @@
 		5EC26DD719D21729003ADBFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC26DB919D21729003ADBFB /* UIKit.framework */; };
 		5EC26DDF19D21729003ADBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EC26DDD19D21729003ADBFB /* InfoPlist.strings */; };
 		5EC26DE119D21729003ADBFB /* DollarBill_FootballConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC26DE019D21729003ADBFB /* DollarBill_FootballConverterTests.m */; };
+		5EC26DEE19D267F3003ADBFB /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC26DED19D267F3003ADBFB /* MBFDog.m */; };
+		5EC26DF119D29087003ADBFB /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC26DF019D29087003ADBFB /* MBFPuppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		5EC26DDC19D21729003ADBFB /* DollarBill_FootballConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DollarBill_FootballConverterTests-Info.plist"; sourceTree = "<group>"; };
 		5EC26DDE19D21729003ADBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EC26DE019D21729003ADBFB /* DollarBill_FootballConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DollarBill_FootballConverterTests.m; sourceTree = "<group>"; };
+		5EC26DEC19D267F3003ADBFB /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		5EC26DED19D267F3003ADBFB /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		5EC26DEF19D29087003ADBFB /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		5EC26DF019D29087003ADBFB /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				5EC26DCB19D21729003ADBFB /* ViewController.m */,
 				5EC26DCD19D21729003ADBFB /* Images.xcassets */,
 				5EC26DBC19D21729003ADBFB /* Supporting Files */,
+				5EC26DEC19D267F3003ADBFB /* MBFDog.h */,
+				5EC26DED19D267F3003ADBFB /* MBFDog.m */,
+				5EC26DEF19D29087003ADBFB /* MBFPuppy.h */,
+				5EC26DF019D29087003ADBFB /* MBFPuppy.m */,
 			);
 			path = DollarBill_FootballConverter;
 			sourceTree = "<group>";
@@ -251,7 +261,9 @@
 			files = (
 				5EC26DCC19D21729003ADBFB /* ViewController.m in Sources */,
 				5EC26DC619D21729003ADBFB /* AppDelegate.m in Sources */,
+				5EC26DEE19D267F3003ADBFB /* MBFDog.m in Sources */,
 				5EC26DC219D21729003ADBFB /* main.m in Sources */,
+				5EC26DF119D29087003ADBFB /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
